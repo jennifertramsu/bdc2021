@@ -15,7 +15,7 @@ def scrape_tweets(names : list):
 names = []
 
 # to call from command line
-# --> >> python tweetScrapper <<name1>> <<name2>> ...
+# --> >> python tweetScrapper.py <<name1>> <<name2>> ...
 # otherwise, if editing script directly, add names to the list names
 
 if len(sys.argv) > 1:
