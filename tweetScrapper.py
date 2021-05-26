@@ -1,23 +1,5 @@
 import twint
-
-names = """joebiden
-FoxNews
-CNN
-BBC
-BorisJohnson
-JustinTrudeau
-jacindaardern
-washingtonpost
-CBCNews
-VICE
-charliekirk11
-RealCandaceO
-michaeljknowles
-RubinReport
-andrewklavan
-JeremyDBoreing"""
-
-names = names.split(sep="\n")
+import sys
 
 def scrape_tweets(names : list):
     
@@ -29,3 +11,18 @@ def scrape_tweets(names : list):
         c.Output = name + ".csv"
         c.Since = "2020-01-01"
         twint.run.Search(c)
+
+names = []
+
+# to call from command line
+# --> >> python tweetScrapper <<name1>> <<name2>> ...
+# otherwise, if editing script directly, add names to the list names
+
+if len(sys.argv) > 1:
+    for name in sys.argv:
+        if name == "tweetScrapper.py":
+            continue
+        names.append(name)
+   
+scrape_tweets(names)
+
