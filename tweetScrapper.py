@@ -1,5 +1,7 @@
 import twint
 import sys
+import glob
+import pandas as pd
 
 def scrape_tweets(names : list):
     
@@ -12,7 +14,40 @@ def scrape_tweets(names : list):
         c.Since = "2020-01-01"
         twint.run.Search(c)
 
+def scrape_followers(names : list):
+    
+    c = twint.Config()
+    
+    file = open("news_followers", "w")
+    
+    file.write("user,followers\n")
+        
+    for name in names:
+        if "onald" in name:
+            continue
+        c.Username = name
+        c.Format = "{username},{followers}"
+        twint.run.Lookup(c)
+
 names = []
+
+"""path = "./Datasets/News_Outlets/*"
+
+files = glob.glob(path)
+
+dfs = [pd.read_csv(file) for file in files if "processing" not in file]
+
+usernames = []
+
+for df in dfs:
+    try:
+        user = df["username"].iloc[0]
+    except:
+        user = df["user_name"].iloc[0]
+    
+    usernames.append(user)
+    
+names = usernames"""
 
 # to call from command line
 # --> >> python tweetScrapper.py <<name1>> <<name2>> ...
@@ -25,4 +60,3 @@ if len(sys.argv) > 1:
         names.append(name)
    
 scrape_tweets(names)
-
