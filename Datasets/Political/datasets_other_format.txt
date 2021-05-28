@@ -1,7 +1,0 @@
-./Political\kayleighmcenany.csv
-./Political\LeaderMcConnell.csv
-./Political\prager.csv
-./Political\RepMattGaetz.csv
-./Political\scrowder.csv
-./Political\tedcruz.csv
-./Political\trump_tweets.csv
