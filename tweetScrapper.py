@@ -23,8 +23,6 @@ def scrape_followers(names : list):
     file.write("user,followers\n")
         
     for name in names:
-        if "onald" in name:
-            continue
         c.Username = name
         c.Format = "{username},{followers}"
         twint.run.Lookup(c)
