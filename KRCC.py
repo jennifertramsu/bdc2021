@@ -19,3 +19,6 @@ def krcc_test(x, y):
 
     else:
         print("inconsistent number of points in x and y")
+
+if __name__ == "__main__":
+    krcc_test( [1,2.2,6,4,5,5.8,7,8,9,10,11,12,13.9,14,15,16,17,18,21,20], [1,4,3,4,5,6,9.4,8,9,11.2,11,12,13,14,3,16,17,18,19,17])
