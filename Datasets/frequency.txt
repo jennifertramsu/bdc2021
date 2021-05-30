@@ -1,0 +1,65 @@
+3 Days, different number of people
+
+real and health
+KRCC = 0.03717497806212254
+p value = 0.7782108453620955
+real and left
+KRCC = 0.345679012345679
+p value = 0.008612815884147498
+real and right
+KRCC = 0.28643678645086296
+p value = 0.03070710996902004
+real and celeb
+KRCC = 0.047088305545355216
+p value = 0.7213040637501071
+real and news
+KRCC = 0.2765432098765432
+p value = 0.03558467947515233
+
+KRCC = -0.06195829677020424
+p value = 0.6387702040421211
+fake and left
+KRCC = 0.2222222222222222
+p value = 0.09125408821345962
+fake and right
+KRCC = 0.3910484823720477
+p value = 0.003177463761533571
+fake and celeb
+KRCC = 0.12639492541121664
+p value = 0.3383138658682934
+fake and news
+KRCC = 0.2962962962962963
+p value = 0.024337512348919184
+
+---------------------------------------------------------
+
+3 Days, same number of people
+real and health
+KRCC = 0.03717497806212254
+p value = 0.7782108453620955
+real and left
+KRCC = 0.2643523042210153
+p value = 0.04633560418934842
+real and right
+KRCC = 0.2250175801852048
+p value = 0.09057143282824559
+real and celeb
+KRCC = -0.30023903972197763
+p value = 0.05250107801833848
+real and news
+KRCC = 0.2765432098765432
+p value = 0.03558467947515233
+
+KRCC = -0.05955353322052624
+p value = 0.6521907366323247
+fake and left
+KRCC = 0.18727306889763737
+p value = 0.1585673803681492
+fake and right
+KRCC = 0.37298987089457086
+p value = 0.0050735022731777015
+fake and celeb
+inconsistent number of points in x and y
+fake and news
+KRCC = 0.29913496276826756
+p value = 0.02315167498852437

@@ -18,7 +18,7 @@ def scrape_followers(names : list):
     
     c = twint.Config()
     
-    file = open("celebrity_followers", "w")
+    file = open("healthorg_followers", "w")
     
     file.write("user,followers\n")
         
@@ -31,11 +31,11 @@ def scrape_followers(names : list):
 
 names = []
 
-path = "./Datasets/Celebrities/*"
+path = "./Datasets/HealthOrg/*"
 
 files = glob.glob(path)
 
-dfs = [pd.read_csv(file) for file in files if "trump_tweets" not in file]
+dfs = [pd.read_csv(file) for file in files if "processing" not in file]
 
 usernames = []
 
