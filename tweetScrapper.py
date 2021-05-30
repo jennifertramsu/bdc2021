@@ -18,7 +18,7 @@ def scrape_followers(names : list):
     
     c = twint.Config()
     
-    file = open("leftnews_followers", "w")
+    file = open("rightnews_followers", "w")
     
     file.write("user,followers\n")
         
@@ -31,7 +31,7 @@ def scrape_followers(names : list):
 
 names = []
 
-path = "./Datasets/News_Outlets/Left/*"
+path = "./Datasets/News_Outlets/Right/*"
 
 files = glob.glob(path)
 
