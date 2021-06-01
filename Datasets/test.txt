@@ -1,0 +1,8 @@
+health_like_bin = (health_likes/healthorg_dates).resample('3D').sum()
+right_like_bin = (right_likes/right_dates).resample('3D').sum()
+left_like_bin = (left_likes/left_dates).resample('3D').sum()
+rightnews_like_bin = (rightnews_likes/rightnews_dates).resample('3D').sum()
+leftnews_like_bin = (leftnews_likes/leftnews_dates).resample('3D').sum()
+celeb_like_bin = (celeb_likes/celeb_dates).resample('3D').sum()
+real_like_bin = (real_likes/real_tweets).resample('3D').sum()
+fake_like_bin = (fake_likes/fake_tweets).resample('3D').sum()
