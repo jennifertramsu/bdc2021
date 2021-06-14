@@ -18,24 +18,24 @@ def scrape_followers(names : list):
     
     c = twint.Config()
     
-    file = open("news_followers", "w")
+    file = open("rightnews_followers", "w")
     
     file.write("user,followers\n")
         
     for name in names:
-        if "onald" in name:
-            continue
         c.Username = name
         c.Format = "{username},{followers}"
         twint.run.Lookup(c)
 
+#names = ["CPHO_Canada", "AOC", "BillGates", "BarackObama", "MichelleObama", "jimmykimmel", "SteveCarell", "SpeakerPelosi", "HillaryClinton"]
+
 names = []
 
-"""path = "./Datasets/News_Outlets/*"
+path = "./Datasets/News_Outlets/Right/*"
 
 files = glob.glob(path)
 
-dfs = [pd.read_csv(file) for file in files if "processing" not in file]
+dfs = [pd.read_csv(file) for file in files]
 
 usernames = []
 
@@ -47,7 +47,7 @@ for df in dfs:
     
     usernames.append(user)
     
-names = usernames"""
+names = usernames
 
 # to call from command line
 # --> >> python tweetScrapper.py <<name1>> <<name2>> ...
@@ -59,4 +59,4 @@ if len(sys.argv) > 1:
             continue
         names.append(name)
    
-scrape_tweets(names)
+scrape_followers(names)
