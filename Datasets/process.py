@@ -18,13 +18,6 @@ def filter_data(type, strings):
         
     finaldf = pd.concat(df_ls, ignore_index = True)
     
-    # removing tweet duplicates within df
-    
-    if "tweet" in finaldf.columns:
-        finaldf = finaldf.drop_duplicates("tweet")
-    else:
-        finaldf = finaldf.drop_duplicates("text")
-        
     return finaldf
 
 # filter for tweets in first half of 2020
