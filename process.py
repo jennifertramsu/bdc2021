@@ -7,7 +7,7 @@ import datetime
 def filter_data(type, strings):
     ''' Reads in excel files from directory type and returns the final concatenated dataframe. '''
     
-    df_path = glob.glob('./' + str(type) + '/*.csv')
+    df_path = glob.glob('./Datasets' + str(type) + '/*.csv')
     df_ls = []
     
     for path in df_path:
