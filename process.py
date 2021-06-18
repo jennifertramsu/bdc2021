@@ -67,7 +67,7 @@ if __name__ == "__main__":
     filter_dates(covid)
 
     fake_df = pd.read_excel('./Processed Datasets/fake.xlsx')
-    fake_df = process.filter_dates(fake_df)
+    fake_df = filter_dates(fake_df)
 
     finaldf = pd.concat([fake_df, covid], ignore_index = True)
 
