@@ -38,8 +38,7 @@ def filter_dates(df):
             dates.append(temp.date())
         
         df["date"] = dates
-        df = df[df["date"] <= datetime.date(2020,5,25)]
-        df = df[df["date"] >= datetime.date(2020,3,1)]
+        
     except:
         dates = df["created_at"]
         dates = [date[4:10] + " " + date[-4:] for date in dates]
@@ -52,6 +51,9 @@ def filter_dates(df):
 
         df["date"] = dates
         df = df.drop("created_at", axis=1)
+    
+    df = df[df["date"] <= datetime.date(2020,5,25)]
+    df = df[df["date"] >= datetime.date(2020,3,1)]
     
     return df
 
