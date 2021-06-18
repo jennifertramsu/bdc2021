@@ -27,36 +27,14 @@ def scrape_followers(names : list):
         c.Format = "{username},{followers}"
         twint.run.Lookup(c)
 
-#names = ["CPHO_Canada", "AOC", "BillGates", "BarackObama", "MichelleObama", "jimmykimmel", "SteveCarell", "SpeakerPelosi", "HillaryClinton"]
-
 names = []
-
-path = "./Datasets/News_Outlets/Right/*"
-
-files = glob.glob(path)
-
-dfs = [pd.read_csv(file) for file in files]
-
-usernames = []
-
-for df in dfs:
-    try:
-        user = df["username"].iloc[0]
-    except:
-        user = df["user_name"].iloc[0]
-    
-    usernames.append(user)
-    
-names = usernames
 
 # to call from command line
 # --> >> python tweetScrapper.py <<name1>> <<name2>> ...
 # otherwise, if editing script directly, add names to the list names
 
 if len(sys.argv) > 1:
-    for name in sys.argv:
-        if name == "tweetScrapper.py":
-            continue
+    for name in sys.argv[1:]:
         names.append(name)
    
-scrape_followers(names)
+scrape_tweets(names)
