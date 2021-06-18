@@ -56,3 +56,21 @@ def filter_dates(df):
     df = df[df["date"] >= datetime.date(2020,3,1)]
     
     return df
+
+if __name__ == "__main__":
+    strings = "coronavirus|sars|covid|endemic|epidemic|pandemic|outbreak|community spread|corona|\
+    flattening the curve|social distancing|social distance|quarantine|N95|PPE|stayhome|\
+    stayathome|lockdown|wearamask|socialdistancing|ncov|covax|vaccine|symptomatic"
+
+    df = pd.read_csv('./Datasets/Fake/covid_lies_hydrated.csv')
+    covid = df.loc[df['text'].str.contains(strings, case=False)]
+    filter_dates(covid)
+
+    fake_df = pd.read_excel('./Processed Datasets/fake.xlsx')
+    fake_df = filter_dates(fake_df)
+
+    finaldf = pd.concat([fake_df, covid], ignore_index = True)
+
+    finaldf = finaldf.drop_duplicates("tweet")
+
+    finaldf.to_excel('new_fake.xlsx')
