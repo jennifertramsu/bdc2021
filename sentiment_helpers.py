@@ -1,11 +1,13 @@
 import pandas as pd
+import numpy as np
 import re
 import nltk
 
-#from wordcloud import WordCloud, STOPWORDS
+from wordcloud import WordCloud, STOPWORDS
 from PIL import Image
 from textblob import TextBlob
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
+
 
 def clean_tweet(df, colname):
     
@@ -47,13 +49,12 @@ def sentimentanalysis(df, col):
     df["sentiment"] = [classify(a) for a in analysis]
         
     return df
-'''
-def create_wordcloud(text):
+
+def create_wordcloud(text, name):
     mask = np.array(Image.open("cloud.png"))
     stopwords = set(STOPWORDS)
     wc = WordCloud(background_color="white", mask = mask, max_words=3000, stopwords=stopwords, repeat=True)
     wc.generate(str(text))
-    wc.to_file("Wordclouds/wc.png")
-    path="wc.png"
+    wc.to_file(f"Wordclouds/wc_{name}.png")
+    path=f"Wordclouds/wc_{name}.png"
     display(Image.open(path))
-'''
