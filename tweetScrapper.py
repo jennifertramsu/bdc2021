@@ -43,7 +43,7 @@ def scrape_followers(names : list):
         c.Format = "{username},{followers}"
         twint.run.Lookup(c)
     sys.stdout.close()
-    
+        
 for a, v in args:
     if a in ("-t", "--tweet"):
         scrape_tweets(names)
