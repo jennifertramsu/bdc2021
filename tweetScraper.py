@@ -3,10 +3,10 @@ import sys
 import getopt
 
 # to call from command line
-# --> >> python tweetScrapper.py -t <<name1>> <<name2>> ... for tweets 
-# --> >> python tweetScrapper.py --tweets <<name1>> <<name2>> ... for tweets
-# --> >> python tweetScrapper.py -f <<name1>> <<name2>> ... for followers
-# --> >> python tweetScrapper.py -followers <<name1>> <<name2>> ... for followers
+# --> >> python tweetScraper.py -t <<name1>> <<name2>> ... for tweets 
+# --> >> python tweetScraper.py --tweets <<name1>> <<name2>> ... for tweets
+# --> >> python tweetScraper.py -f <<name1>> <<name2>> ... for followers
+# --> >> python tweetScraper.py -followers <<name1>> <<name2>> ... for followers
 
 arguments = sys.argv[1:]
 short_options = "tf"
@@ -43,7 +43,7 @@ def scrape_followers(names : list):
         c.Format = "{username},{followers}"
         twint.run.Lookup(c)
     sys.stdout.close()
-    
+        
 for a, v in args:
     if a in ("-t", "--tweet"):
         scrape_tweets(names)
