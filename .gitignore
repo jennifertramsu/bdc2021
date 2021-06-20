@@ -3,4 +3,4 @@ text_file.txt
 .vscode/settings.json
 test.csv
 test.py
-__pycache__/process.cpython-39.pyc
+__pycache__/*
