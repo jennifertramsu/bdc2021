@@ -1,37 +1,74 @@
-3 Days, different number of people
-
+=================March 1 to May 25==================
 real and health
-KRCC = 0.012484404235973056
-p value = 0.9251145162888145
+    KRCC = 0.012484404235973056
+    p value = 0.9251145162888145
 real and left
-KRCC = 0.31920199501246876
-p value = 0.01614927844755776
+    KRCC = 0.31920199501246876
+    p value = 0.01614927844755776
 real and right
-KRCC = 0.23544442000447588
-p value = 0.07445696327927474
+    KRCC = 0.23544442000447588
+    p value = 0.07445696327927474
 real and celeb
-inconsistent number of points in x and y
+    inconsistent number of points in x and y
 real and left news
-KRCC = 0.26022804316284176
-p value = 0.04865951170097692
+    KRCC = 0.26022804316284176
+    p value = 0.04865951170097692
 real and right news
-KRCC = 0.16873656924934236
-p value = 0.20158666512733148
+    KRCC = 0.16873656924934236
+    p value = 0.20158666512733148
+    
+fake and health
+    KRCC = -0.07980074688861064
+    p value = 0.5475860285660341
+fake and left
+    KRCC = 0.22166891410402148
+    p value = 0.0945040757700503
+fake and right
+    KRCC = 0.21287389563768133
+    p value = 0.10645591611342688
+fake and celeb
+    inconsistent number of points in x and y
+fake and left news
+    KRCC = 0.19802222850016868
+    p value = 0.13317405833318194
+fake and right news
+    KRCC = 0.12143826166960031
+    p value = 0.3575973007058022
+
+
+=================March 1 to Apr 30==================
+real and health
+    KRCC = 0.10526315789473682
+    p value = 0.5060905053660083
+real and left
+    KRCC = 0.6187068150018245
+    p value = 9.590505240854285e-05
+real and right
+    KRCC = 0.520287877970104
+    p value = 0.0009913639098877048
+real and celeb
+    inconsistent number of points in x and y
+real and left news
+    KRCC = 0.5393810111066216
+    p value = 0.0006406146909180092
+real and right news
+    KRCC = 0.4652291554664882
+    p value = 0.003355922360793298
 
 fake and health
-KRCC = -0.07980074688861064
-p value = 0.5475860285660341
+    KRCC = -0.15311004784688995
+    p value = 0.3334531907702424
 fake and left
-KRCC = 0.22166891410402148
-p value = 0.0945040757700503
+    KRCC = 0.1678661901167741
+    p value = 0.28990217889452086
 fake and right
-KRCC = 0.21287389563768133
-p value = 0.10645591611342688
+    KRCC = 0.12887864867149365
+    p value = 0.41467810305442576
 fake and celeb
-inconsistent number of points in x and y
+    inconsistent number of points in x and y
 fake and left news
-KRCC = 0.19802222850016868
-p value = 0.13317405833318194
+    KRCC = 0.033412982988905764
+    p value = 0.8325167211275102
 fake and right news
-KRCC = 0.12143826166960031
-p value = 0.3575973007058022
+    KRCC = -0.00479617686047926
+    p value = 0.9758771006902706

@@ -1,82 +1,158 @@
-likes
+=================March 1 to May 25==================
+-----------------likes/frequency-----------------
 like/frequency
 real and health
-KRCC = 0.3152709359605911
-p value = 0.016235008804067922
+    KRCC = 0.3152709359605911
+    p value = 0.016235008804067922
 real and left
-KRCC = 0.33004926108374383
-p value = 0.011674730549296571
+    KRCC = 0.33004926108374383
+    p value = 0.011674730549296571
 real and right
-KRCC = 0.02463054187192118
-p value = 0.8671606644411562
+    KRCC = 0.02463054187192118
+    p value = 0.8671606644411562
 real and celeb
-KRCC = 0.10837438423645318
-p value = 0.4233065625758265
+    KRCC = 0.10837438423645318
+    p value = 0.4233065625758265
 real and right news
-KRCC = 0.24137931034482754
-p value = 0.06852679905196186
+    KRCC = 0.24137931034482754
+    p value = 0.06852679905196186
 real and left news
-KRCC = 0.05911330049261083
-p value = 0.668894784416208
+    KRCC = 0.05911330049261083
+    p value = 0.668894784416208
 
 fake and health
-KRCC = 0.17241379310344823
-p value = 0.19740923451384743
+    KRCC = 0.17241379310344823
+    p value = 0.19740923451384743
 fake and left
-KRCC = 0.29556650246305416
-p value = 0.02464236076525901
+    KRCC = 0.29556650246305416
+    p value = 0.02464236076525901
 fake and right
-KRCC = -0.10837438423645318
-p value = 0.4233065625758265
+    KRCC = -0.10837438423645318
+    p value = 0.4233065625758265
 fake and celeb
-KRCC = 0.39901477832512305
-p value = 0.002044164558588477
+    KRCC = 0.39901477832512305
+    p value = 0.002044164558588477
 fake and right news
-KRCC = -0.08866995073891623
-p value = 0.514860932436064
+    KRCC = -0.08866995073891623
+    p value = 0.514860932436064
 fake and left news
-KRCC = 0.02463054187192118
-p value = 0.8671606644411562
+    KRCC = 0.02463054187192118
+    p value = 0.8671606644411562
 
-
-
-
-retweets
-retweet/frequency
+-----------------retweets/frequency-----------------
 real and health
-KRCC = 0.4137931034482758
-p value = 0.0013429145225029918
+    KRCC = 0.4137931034482758
+    p value = 0.0013429145225029918
 real and left
-KRCC = 0.4729064039408866
-p value = 0.00020804791533585217
+    KRCC = 0.4729064039408866
+    p value = 0.00020804791533585217
 real and right
-KRCC = 0.009852216748768471
-p value = 0.9555401469615349
+    KRCC = 0.009852216748768471
+    p value = 0.9555401469615349
 real and celeb
-KRCC = 0.3251231527093596
-p value = 0.013052354736068039
+    KRCC = 0.3251231527093596
+    p value = 0.013052354736068039
 real and right news
-KRCC = 0.039408866995073885
-p value = 0.7803827254931988
+    KRCC = 0.039408866995073885
+    p value = 0.7803827254931988
 real and left news
-KRCC = 0.3152709359605911
-p value = 0.016235008804067922
+    KRCC = 0.3152709359605911
+    p value = 0.016235008804067922
 
 fake and health
-KRCC = 0.34482758620689646
-p value = 0.008271754080026878
+    KRCC = 0.34482758620689646
+    p value = 0.008271754080026878
 fake and left
-KRCC = 0.38423645320197036
-p value = 0.0030586572531963864
+    KRCC = 0.38423645320197036
+    p value = 0.0030586572531963864
 fake and right
-KRCC = -0.019704433497536943
-p value = 0.8964941426465813
+    KRCC = -0.019704433497536943
+    p value = 0.8964941426465813
 fake and celeb
-KRCC = 0.19704433497536944
-p value = 0.13935105225018282
+    KRCC = 0.19704433497536944
+    p value = 0.13935105225018282
 fake and right news
-KRCC = -0.05911330049261083
-p value = 0.668894784416208
+    KRCC = -0.05911330049261083
+    p value = 0.668894784416208
 fake and left news
-KRCC = 0.2561576354679802
-p value = 0.052763017559103835
+    KRCC = 0.2561576354679802
+    p value = 0.052763017559103835
+
+=================March 1 to Apr 30==================
+-----------------likes/frequency-----------------
+real and health
+    KRCC = 0.17142857142857143
+    p value = 0.2944906590580466
+real and left
+    KRCC = 0.08571428571428572
+    p value = 0.6119326072720337
+real and right
+    KRCC = -0.3047619047619048
+    p value = 0.05636408981183753
+real and celeb
+    KRCC = -0.08571428571428572
+    p value = 0.6119326072720337
+real and right news
+    KRCC = 0.2857142857142857
+    p value = 0.07451845434691835
+real and left news
+    KRCC = 0.24761904761904766
+    p value = 0.12453202701123642
+
+fake and health
+    KRCC = 0.26666666666666666
+    p value = 0.09703982596968545
+fake and left
+    KRCC = 0.21904761904761907
+    p value = 0.17632511106950258
+fake and right
+    KRCC = -0.17142857142857143
+    p value = 0.2944906590580466
+fake and celeb
+    KRCC = 0.21904761904761907
+    p value = 0.17632511106950258
+fake and right news
+    KRCC = 0.09523809523809525
+    p value = 0.5706054991361066
+fake and left news
+    KRCC = 0.34285714285714286
+    p value = 0.03074704290123868
+
+-----------------retweets/frequency-----------------
+real and health
+    KRCC = 0.40952380952380957
+    p value = 0.009020134749794136
+real and left
+    KRCC = 0.37142857142857144
+    p value = 0.018676036751262722
+real and right
+    KRCC = -0.10476190476190478
+    p value = 0.5306221632230573
+real and celeb
+    KRCC = 0.3523809523809524
+    p value = 0.026152256353173968
+real and right news
+    KRCC = 0.0380952380952381
+    p value = 0.8346819234227341
+real and left news
+    KRCC = 0.3238095238095238
+    p value = 0.04196934455920998
+
+fake and health
+    KRCC = 0.1619047619047619
+    p value = 0.3232088737909401
+fake and left
+    KRCC = 0.5428571428571428
+    p value = 0.00036306517605338095
+fake and right
+    KRCC = 0.06666666666666667
+    p value = 0.6981882790943121
+fake and celeb
+    KRCC = 0.18095238095238098
+    p value = 0.2674910846901993
+fake and right news
+    KRCC = 0.09523809523809525
+    p value = 0.5706054991361066
+fake and left news
+    KRCC = 0.3238095238095238
+    p value = 0.04196934455920998
