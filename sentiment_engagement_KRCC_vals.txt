@@ -1,0 +1,158 @@
+-----------------health org-----------------
+positive likes
+KRCC = -0.16336833851263918
+p value = 0.2153809625342079
+positive retweets
+KRCC = -0.23762667420020242
+p value = 0.07153871385540321
+neutral likes
+KRCC = -0.07721531076380966
+p value = 0.5602357377388666
+neutral retweets
+KRCC = -0.15193980505136742
+p value = 0.2517154112481058
+negative likes
+KRCC = 0.015078423261352733
+p value = 0.9100200451314568
+negative retweets
+KRCC = -0.07036597521964609
+p value = 0.5979191771771858
+
+-----------------celebrities-----------------
+positive likes
+KRCC = 0.1500168778481903
+p value = 0.25909522984908506
+positive retweets
+KRCC = 0.20002250379758704
+p value = 0.13239875702917048
+neutral likes
+KRCC = 0.22337708084635563
+p value = 0.0939968843882573
+neutral retweets
+KRCC = 0.2635347583018802
+p value = 0.048183442952527314
+negative likes
+KRCC = 0.22264281512467013
+p value = 0.10565288725746147
+negative retweets
+KRCC = 0.19644954275706186
+p value = 0.153382022205884
+
+-----------------rightnews-----------------
+positive likes
+KRCC = 0.15155852514032808
+p value = 0.2519385324586535
+positive retweets
+KRCC = 0.19131158091484035
+p value = 0.14813433899748465
+neutral likes
+KRCC = 0.2645259226329628
+p value = 0.04462493184202139
+neutral retweets
+KRCC = 0.27441474217064366
+p value = 0.03722892589731709
+negative likes
+KRCC = 0.14732974834837104
+p value = 0.26720286995086295
+negative retweets
+KRCC = 0.17729512089380242
+p value = 0.1818129903758665
+
+-----------------leftnews-----------------
+positive likes
+KRCC = 0.17241379310344823
+p value = 0.19740923451384743
+positive retweets
+KRCC = 0.13300492610837436
+p value = 0.3231795724216393
+neutral likes
+KRCC = 0.29064039408866993
+p value = 0.02724570500361764
+neutral retweets
+KRCC = 0.27093596059113295
+p value = 0.040102865274462864
+negative likes
+KRCC = 0.2068965517241379
+p value = 0.12013974731191734
+negative retweets
+KRCC = 0.17733990147783246
+p value = 0.18459403185660211
+
+-----------------rightind-----------------
+positive likes
+KRCC = -0.3500393816457773
+p value = 0.008480626775895528
+positive retweets
+KRCC = -0.2700303801267425
+p value = 0.04229155903853444
+neutral likes
+KRCC = -0.1922778071665181
+p value = 0.14775272635505482
+neutral retweets
+KRCC = -0.10737591828779583
+p value = 0.4188876553972707
+negative likes
+KRCC = -0.1461332738498243
+p value = 0.274687062884971
+negative retweets
+KRCC = -0.191484979527356
+p value = 0.15233508842104934
+
+-----------------leftind-----------------
+positive likes
+KRCC = 0.22112637274572458
+p value = 0.09461757026951856
+positive retweets
+KRCC = 0.2410029006329807
+p value = 0.06848883669740315
+neutral likes
+KRCC = 0.3150354434811996
+p value = 0.0178324135889328
+neutral retweets
+KRCC = 0.30503431829132027
+p value = 0.02179792377463022
+negative likes
+KRCC = -0.00501330290245426
+p value = 0.9699818472039275
+negative retweets
+KRCC = 0.060159634829451115
+p value = 0.6515768702111469
+
+-----------------real-----------------
+positive likes
+KRCC = 0.21502419158240607
+p value = 0.10588025401358077
+positive retweets
+KRCC = 0.2650298175318028
+p value = 0.046257587812522295
+neutral likes
+KRCC = 0.17317998402694987
+p value = 0.19411514174958966
+neutral retweets
+KRCC = 0.10792375816172237
+p value = 0.4183938269484224
+negative likes
+KRCC = 0.19777336338031817
+p value = 0.13728220577966635
+negative retweets
+KRCC = 0.21279412515603854
+p value = 0.10985433362115958
+-----------------fake-----------------
+positive likes
+KRCC = -0.054592083368401156
+p value = 0.6795233333952427
+positive retweets
+KRCC = 0.08933250005738372
+p value = 0.4990379850805673
+neutral likes
+KRCC = 0.08178595642260741
+p value = 0.5355466619689071
+neutral retweets
+KRCC = 0.24040114463614903
+p value = 0.06858638569795764
+negative likes
+KRCC = 0.10961899947165556
+p value = 0.41662798064588047
+negative retweets
+KRCC = 0.2064916036559093
+p value = 0.12598735055785112
