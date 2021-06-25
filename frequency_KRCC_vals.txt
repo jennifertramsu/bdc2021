@@ -9,7 +9,8 @@ real and right
     KRCC = 0.23544442000447588
     p value = 0.07445696327927474
 real and celeb
-    inconsistent number of points in x and y
+    KRCC = 0.18705089755869111
+    p value = 0.23828313782467248
 real and left news
     KRCC = 0.26022804316284176
     p value = 0.04865951170097692
@@ -27,7 +28,8 @@ fake and right
     KRCC = 0.21287389563768133
     p value = 0.10645591611342688
 fake and celeb
-    inconsistent number of points in x and y
+    KRCC = -0.11990442151198148
+    p value = 0.44967650404109705
 fake and left news
     KRCC = 0.19802222850016868
     p value = 0.13317405833318194
